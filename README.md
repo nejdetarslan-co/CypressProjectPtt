@@ -20,6 +20,14 @@ Test Senaryoları
 - Ürünü favorilere ekler.
 - Favori listesinde ürünün başarıyla göründüğünü doğrular.
 
+
+
+3. API Test Otomasyonu (Swagger Petstore)
+- GET: Statusu 'available' olan petleri çeker ve response’un doğruluğunu assert eder.
+- POST Rastgele id ile yeni bir pet ekler, dönen cevabın id, name, status gibi alanlarını assert eder.
+- API testlerinde de POM benzeri bir yapı kullanılmıştır (`support/api/petApi.js`).
+- Tüm assertion’lar response’un hem yapısını hem de işlevini kontrol edecek şekilde detaylıdır.
+
 ---
 
 ## Kurulum ve Çalıştırma
